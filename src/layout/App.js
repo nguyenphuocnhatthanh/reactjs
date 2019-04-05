@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { check, me } from '../store/auth/action'
 import Header from "../views/shared/Header";
 import routes from "../routes";
-import '../App.css'
+import '../App.scss'
 
 class App extends Component {
     componentWillMount() {
