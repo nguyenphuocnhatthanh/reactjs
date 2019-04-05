@@ -14,13 +14,6 @@ class Login extends PureComponent {
             }
         }
     }
-    componentDidMount() {
-        this.mounted = true;
-    }
-
-    componentWillUnmount(){
-        this.mounted = false;
-    }
     handleChange = (name, value) => {
         this.setState({credentials: {...this.state.credentials, [name]: value}})
     }
